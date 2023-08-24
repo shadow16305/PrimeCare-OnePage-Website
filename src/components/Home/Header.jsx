@@ -7,11 +7,8 @@ import "./Ticker.css";
 const Header = () => {
   return (
     <Fragment>
-      <div
-        className="container lg:max-w-[1728px] lg:ps-[96px] mx-auto"
-        id="home"
-      >
-        <div className="flex flex-col-reverse lg:flex-row items-center lg:pt-28 pt-10 lg:justify-center lg:gap-64">
+      <div className="container lg:ps-[96px] mx-auto" id="home">
+        <div className="flex flex-col-reverse lg:flex-row items-center lg:pt-28 pt-10 lg:justify-between lg:max-w-[1240px]">
           <div className="flex flex-col items-center lg:items-start gap-5 lg:gap-10 py-20 text-center lg:text-start">
             <h1 className="max-w-[342px] lg:max-w-[598px]">
               Prime Care Walk-in Clinic
@@ -21,10 +18,10 @@ const Header = () => {
               many years. Our staff is caring and highly qualified. Our goal is
               to provide timely and high quality imaging exams to our patients.
             </p>
-            <div className="mt-4 lg:mt-0">
+            <div className="mt-4">
               <a
                 href="#contact"
-                className="uppercase text-white bg-midnightGreen px-6 py-3 rounded-3xl text-xl hover:bg-[#328495] transition-[0.25s]"
+                className="uppercase text-white bg-midnightGreen px-8 py-4 rounded-[50px] text-xl hover:bg-[#328495] transition-[0.25s]"
               >
                 get appointment
               </a>

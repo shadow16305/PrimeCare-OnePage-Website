@@ -16,10 +16,10 @@ const Testimonials = () => {
             Here’s What Our Customers Have Said
           </h2>
           <div className="flex flex-col items-center lg:flex-row gap-10">
-            <div className="flex flex-col-reverse lg:flex-col gap-4 bg-[#E8EDEC] w-[340px] lg:w-[600px] lg:h-[384px] p-2">
+            <div className="flex flex-col-reverse lg:flex-col gap-4 bg-[#E8EDEC] w-[340px] lg:w-[600px] lg:h-[384px] p-2 lg:p-4">
               <img
                 src={quote_icon}
-                className="w-[80px] h-[80px] hidden lg:block"
+                className="w-[80px] h-[80px] hidden lg:block ps-4"
                 alt=""
               />
               <p className="px-4 text-center lg:text-start">
@@ -35,8 +35,8 @@ const Testimonials = () => {
                   alt=""
                 />
                 <div className="flex flex-col items-center lg:items-start justify-center">
-                  <h3 className="text-[28px]">Nik Morgan, Inc</h3>
-                  <p className="text-2xl text-midnightGreen">Toronto,ON</p>
+                  <h3 className="text-2xl">Nik Morgan, Inc</h3>
+                  <p className="text-midnightGreen">Toronto,ON</p>
                 </div>
               </div>
               <img
@@ -45,10 +45,10 @@ const Testimonials = () => {
                 alt=""
               />
             </div>
-            <div className="flex flex-col-reverse lg:flex-col gap-4 bg-[#E8EDEC] w-[340px] lg:w-[600px] lg:h-[384px] p-2">
+            <div className="flex flex-col-reverse lg:flex-col gap-4 bg-[#E8EDEC] w-[340px] lg:w-[600px] lg:h-[384px] p-2 lg:p-4">
               <img
                 src={quote_icon}
-                className="w-[80px] h-[80px] hidden lg:block"
+                className="w-[80px] h-[80px] hidden lg:block ps-4"
                 alt=""
               />
               <p className="px-4 text-center lg:text-start">
@@ -57,15 +57,15 @@ const Testimonials = () => {
                 consultation with healthcare providers.While testimonials can
                 provide insights into individual experiences.
               </p>
-              <div className="flex flex-col items-center lg:items-start lg:flex-row justify-center gap-3">
+              <div className="flex flex-col items-center lg:flex-row justify-center gap-3">
                 <img
                   src={person_icon_two}
                   className="w-[90px] h-[90px]"
                   alt=""
                 />
                 <div className="flex flex-col items-center lg:items-start justify-center">
-                  <h3 className="text-[28px]">Nik Morgan, Inc</h3>
-                  <p className="text-2xl text-midnightGreen">Toronto,ON</p>
+                  <h3 className="text-[24px]">Nik Morgan, Inc</h3>
+                  <p className="text-midnightGreen">Toronto,ON</p>
                 </div>
               </div>
               <img

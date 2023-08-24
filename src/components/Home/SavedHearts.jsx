@@ -69,9 +69,9 @@ const SavedHearts = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-col-reverse lg:flex-row justify-between bg-midnightGreen p-3 lg:p-0 lg:w-[1240px] gap-4 lg:gap-0 lg:rounded-[60px] py-4 lg:py-0">
+        <div className="flex flex-col-reverse lg:flex-row justify-between bg-midnightGreen p-3 lg:p-0 lg:w-[1240px] lg:max-h-[470px] gap-4 lg:gap-0 lg:rounded-[60px] py-4 lg:py-0 lg:mt-4">
           <div className="flex flex-col justify-center gap-10 lg:ps-10">
-            <h2 className="text-white text-[20px] lg:text-[24px] text-center lg:text-start lg:max-w-[475px]">
+            <h2 className="text-white text-[20px] lg:text-[48px] text-center lg:text-start lg:max-w-[475px]">
               Your Well-Being is our Main Priority
             </h2>
             <div className="flex flex-row gap-6">

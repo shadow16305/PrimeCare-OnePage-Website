@@ -22,10 +22,7 @@
   }
 }
 .hmove {
-  animation: tickerh linear 15s infinite;
-}
-.hmove:hover {
-  animation-play-state: paused;
+  animation: tickerh linear 20s infinite;
 }
 
 .dot {

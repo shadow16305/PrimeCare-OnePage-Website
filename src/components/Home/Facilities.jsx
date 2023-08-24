@@ -56,7 +56,9 @@ const Facilities = () => {
             </a>
           </div>
         </div>
-        <Accordion items={items} />
+        <div className="flex justify-center">
+          <Accordion items={items} />
+        </div>
       </div>
     </Fragment>
   );

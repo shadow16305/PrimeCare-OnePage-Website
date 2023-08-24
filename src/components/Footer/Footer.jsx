@@ -6,7 +6,7 @@ import send_icon from "../../assets/Classic Filled.svg";
 const Footer = () => {
   return (
     <Fragment>
-      <div className="container mx-auto flex flex-col lg:flex-row justify-between gap-20 px-14 py-20">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-center gap-20 px-14 py-20">
         <div className="flex flex-col gap-10">
           <div className="flex justify-center lg:justify-start gap-6">
             <a href="">
@@ -26,7 +26,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-row justify-center gap-10">
-          <div className="flex flex-col text-center lg:text-start gap-2 lg:gap-4">
+          <div className="flex flex-col text-center gap-2 lg:gap-4">
             <h3 className="text-[18px] lg:text-[32px] font-black">Company</h3>
             <a href="" className="body-2">
               Home
@@ -41,23 +41,6 @@ const Footer = () => {
               Career
             </a>
           </div>
-        </div>
-        <div className="flex flex-col items-center lg:items-start gap-4">
-          <h3 className="text-[24px] lg:text-[32px]">Subscribe now!</h3>
-          <p className="text-[20px] text-[#403634] text-center lg:text-start lg:max-w-[447px]">
-            Get daily interior inspiration, new products launches and more right
-            to your inbox
-          </p>
-          <form action="" className="flex">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="border border-black border-t-0 border-x-0 lg:w-[350px] py-3 focus:outline-none"
-            />
-            <button type="submit">
-              <img src={send_icon} alt="" />
-            </button>
-          </form>
         </div>
       </div>
       <div className="bg-midnightGreen text-center py-2">

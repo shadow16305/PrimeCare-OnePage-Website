@@ -22,11 +22,11 @@ const Navbar = () => {
     <Fragment>
       {/* DESKTOP */}
       <nav className="shadow-slate-300 shadow-md bg-white hidden lg:block w-full fixed z-10">
-        <div className="container mx-auto flex justify-between items-center lg:px-14 py-3">
+        <div className="container mx-auto flex justify-between items-center lg:px-14 py-2">
           <div className="flex gap-6">
             <img src={logo} alt="" />
             <div className="flex flex-col justify-end">
-              <p className="text-midnightGreen font-['DM_Sans'] font-medium text-[32px] line-height-[58px]">
+              <p className="text-midnightGreen font-['DM_Sans'] font-medium text-[28px] line-height-[58px]">
                 Prime Care
               </p>
               <p className="text-xl font-['DM_Sans'] font-medium">
@@ -39,7 +39,7 @@ const Navbar = () => {
               <li key={elem.key}>
                 <a
                   href={elem.href}
-                  className="hover:text-midnightGreen transition-[0.25s]"
+                  className="hover:text-midnightGreen transition-[0.25s] text-[16px]"
                 >
                   {elem.name}
                 </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
           </ul>
           <div className="flex gap-4">
             <img src={pdf_icon} alt="" />
-            <button className="bg-midnightGreen text-white rounded-3xl px-6 py-3 hover:bg-[#328495] transition-[0.25s] uppercase">
+            <button className="bg-midnightGreen text-white text-[16px] font-medium rounded-3xl px-6 py-3 hover:bg-[#328495] transition-[0.25s] uppercase">
               Download Requisition
             </button>
           </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
       {/* MOBILE */}
       <nav
         className={`${
-          isOpen ? "shadow-slate-300 shadow-md bg-white" : "bg-white"
+          isOpen ? "shadow-slate-300 shadow-md bg-white" : "bg-transparent"
         } lg:hidden flex justify-between w-full fixed z-10`}
       >
         <a href="">
@@ -75,7 +75,7 @@ const Navbar = () => {
             isOpen ? "hidden" : "#000] flex justify-center w-full h-screen"
           }
         >
-          <div className="flex flex-col bg-midnightGreen gap-6 h-screen w-screen">
+          <div className="flex flex-col bg-midnightGreen gap-6 h-[61%] w-screen">
             <div className="bg-white flex justify-between">
               <img src={logo} alt="" />
               <button className="pe-4" onClick={toggleHandler}>

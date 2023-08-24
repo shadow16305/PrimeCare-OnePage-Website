@@ -11,7 +11,7 @@ const Team = () => {
         <span className="text-midnightGreen text-[16px] bg-[#F4F6F7] p-2 w-[202px] rounded-md text-center font-bold">
           OUR MOTIVATED TEAM
         </span>
-        <h2 className="text-center">MEET OUR SKILLED TEAM</h2>
+        <h2 className="text-center">Meet Our Skilled Team</h2>
         <div className="flex flex-col lg:flex-row lg:items-center text-center gap-20">
           <div className="flex flex-col justify-center gap-3">
             <img src={doctor_one} alt="" />
