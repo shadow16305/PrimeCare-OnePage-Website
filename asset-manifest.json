@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/PrimeCare-OnePage-Website/static/css/main.666d8c09.css",
-    "main.js": "/PrimeCare-OnePage-Website/static/js/main.c7e979b3.js",
+    "main.css": "/PrimeCare-OnePage-Website/static/css/main.fcadd8ee.css",
+    "main.js": "/PrimeCare-OnePage-Website/static/js/main.1387bb56.js",
     "static/js/787.8bdf16a5.chunk.js": "/PrimeCare-OnePage-Website/static/js/787.8bdf16a5.chunk.js",
     "static/media/PICTURE OF DOCTOR.png": "/PrimeCare-OnePage-Website/static/media/PICTURE OF DOCTOR.0842f1f442eb8212f1da.png",
     "static/media/b2.png": "/PrimeCare-OnePage-Website/static/media/b2.db021a7f857dd5337363.png",
     "static/media/headerDoc.png": "/PrimeCare-OnePage-Website/static/media/headerDoc.9ea2ce94aab0eccf0b76.png",
     "static/media/image 9.png": "/PrimeCare-OnePage-Website/static/media/image 9.7e4160c45efc6c9e0110.png",
-    "static/media/about-bg.png": "/PrimeCare-OnePage-Website/static/media/about-bg.125c44b1e619bbb72cdb.png",
     "static/media/doctor2.png": "/PrimeCare-OnePage-Website/static/media/doctor2.6b547107947099c8b16d.png",
     "static/media/doctor1.png": "/PrimeCare-OnePage-Website/static/media/doctor1.01b514813a2cde57902b.png",
     "static/media/doctor3.png": "/PrimeCare-OnePage-Website/static/media/doctor3.ca8fcc8f7ae563dfdcdf.png",
@@ -31,12 +30,12 @@
     "index.html": "/PrimeCare-OnePage-Website/index.html",
     "static/media/quote-icon.svg": "/PrimeCare-OnePage-Website/static/media/quote-icon.d64e0be0429c18beb1537c2687b26731.svg",
     "static/media/Hamburger.svg": "/PrimeCare-OnePage-Website/static/media/Hamburger.eef817d6159b806603e1614c5c59e3be.svg",
-    "main.666d8c09.css.map": "/PrimeCare-OnePage-Website/static/css/main.666d8c09.css.map",
-    "main.c7e979b3.js.map": "/PrimeCare-OnePage-Website/static/js/main.c7e979b3.js.map",
+    "main.fcadd8ee.css.map": "/PrimeCare-OnePage-Website/static/css/main.fcadd8ee.css.map",
+    "main.1387bb56.js.map": "/PrimeCare-OnePage-Website/static/js/main.1387bb56.js.map",
     "787.8bdf16a5.chunk.js.map": "/PrimeCare-OnePage-Website/static/js/787.8bdf16a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.666d8c09.css",
-    "static/js/main.c7e979b3.js"
+    "static/css/main.fcadd8ee.css",
+    "static/js/main.1387bb56.js"
   ]
 }
