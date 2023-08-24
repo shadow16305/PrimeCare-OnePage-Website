@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PrimeCare-OnePage-Website/static/css/main.db0e31ac.css",
-    "main.js": "/PrimeCare-OnePage-Website/static/js/main.a7ffb07a.js",
+    "main.css": "/PrimeCare-OnePage-Website/static/css/main.666d8c09.css",
+    "main.js": "/PrimeCare-OnePage-Website/static/js/main.24b8bbd9.js",
     "static/js/787.8bdf16a5.chunk.js": "/PrimeCare-OnePage-Website/static/js/787.8bdf16a5.chunk.js",
     "static/media/PICTURE OF DOCTOR.png": "/PrimeCare-OnePage-Website/static/media/PICTURE OF DOCTOR.0842f1f442eb8212f1da.png",
     "static/media/b2.png": "/PrimeCare-OnePage-Website/static/media/b2.db021a7f857dd5337363.png",
@@ -31,12 +31,12 @@
     "index.html": "/PrimeCare-OnePage-Website/index.html",
     "static/media/quote-icon.svg": "/PrimeCare-OnePage-Website/static/media/quote-icon.d64e0be0429c18beb1537c2687b26731.svg",
     "static/media/Hamburger.svg": "/PrimeCare-OnePage-Website/static/media/Hamburger.eef817d6159b806603e1614c5c59e3be.svg",
-    "main.db0e31ac.css.map": "/PrimeCare-OnePage-Website/static/css/main.db0e31ac.css.map",
-    "main.a7ffb07a.js.map": "/PrimeCare-OnePage-Website/static/js/main.a7ffb07a.js.map",
+    "main.666d8c09.css.map": "/PrimeCare-OnePage-Website/static/css/main.666d8c09.css.map",
+    "main.24b8bbd9.js.map": "/PrimeCare-OnePage-Website/static/js/main.24b8bbd9.js.map",
     "787.8bdf16a5.chunk.js.map": "/PrimeCare-OnePage-Website/static/js/787.8bdf16a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db0e31ac.css",
-    "static/js/main.a7ffb07a.js"
+    "static/css/main.666d8c09.css",
+    "static/js/main.24b8bbd9.js"
   ]
 }
