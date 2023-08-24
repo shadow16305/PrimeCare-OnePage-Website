@@ -41,21 +41,6 @@ const Footer = () => {
               Career
             </a>
           </div>
-          <div className="flex flex-col text-center lg:text-start gap-2 lg:gap-4">
-            <h3 className="text-[18px] lg:text-[32px] font-black">Company</h3>
-            <a href="" className="body-2">
-              Home
-            </a>
-            <a href="" className="body-2">
-              Services
-            </a>
-            <a href="" className="body-2">
-              Contact Us
-            </a>
-            <a href="" className="body-2">
-              Career
-            </a>
-          </div>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-4">
           <h3 className="text-[24px] lg:text-[32px]">Subscribe now!</h3>
