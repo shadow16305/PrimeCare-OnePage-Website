@@ -4,15 +4,22 @@ import about_img from "../../assets/PICTURE OF DOCTOR.png";
 const About = () => {
   return (
     <Fragment>
-      <div className="bg-[url('/src/assets/about-bg.png')] bg-cover bg-no-repeat">
-        <div className="container mx-auto flex flex-col lg:flex-row lg:justify-center py-20 gap-40">
-          <img src={about_img} alt="" />
+      <div
+        className="bg-[url('/src/assets/about-bg.png')] bg-cover bg-no-repeat"
+        id="about"
+      >
+        <div className="container mx-auto flex flex-col items-center lg:flex-row lg:justify-center py-12 gap-10 lg:gap-40">
+          <img
+            src={about_img}
+            className="h-[300px] w-[320px] lg:w-[617px] lg:h-[477px]"
+            alt=""
+          />
           <div className="flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <span className="text-midnightGreen text-[18px] bg-[#F4F6F7] p-2 w-[115px] rounded-md text-center font-bold">
               ABOUT US
             </span>
             <h2 className="lg:max-w-[430px]">Experts in Medical Services</h2>
-            <p className="lg:max-w-[548px]">
+            <p className="max-w-[342px] lg:max-w-[548px]">
               Welcome to Bayview Diagnostic Centre! We are a leading imaging
               clinic, dedicated to exceptional care. Our caring, qualified team
               delivers timely, high-quality exams for accurate diagnoses.

@@ -8,56 +8,58 @@ const Footer = () => {
     <Fragment>
       <div className="container mx-auto flex flex-col lg:flex-row justify-between gap-20 px-14 py-20">
         <div className="flex flex-col gap-10">
-          <div className="flex gap-6">
+          <div className="flex justify-center lg:justify-start gap-6">
             <a href="">
               <img src={logo} alt="" />
             </a>
             <div className="flex flex-col justify-end">
-              <p className="text-midnightGreen font-['DM_Sans'] font-medium text-[32px] line-height-[58px]">
+              <p className="text-midnightGreen font-['DM_Sans'] font-medium text-[20px] lg:text-[32px] line-height-[58px]">
                 Prime Care
               </p>
-              <p className="text-xl font-['DM_Sans'] font-medium">
+              <p className="text-xl font-['DM_Sans'] text-black font-medium">
                 Walk-in Clinic
               </p>
             </div>
           </div>
-          <p className="text-[20px] text-[#403634] lg:max-w-[439px]">
+          <p className="text-[20px] text-center lg:text-start text-[#403634] lg:max-w-[439px]">
             Lorem Ipsum is simply dummy text of the typesetting industry.
           </p>
         </div>
-        <div className="flex flex-col gap-4">
-          <h3 className="text-[32px]">Company</h3>
-          <a href="" className="body-2">
-            Home
-          </a>
-          <a href="" className="body-2">
-            Services
-          </a>
-          <a href="" className="body-2">
-            Contact Us
-          </a>
-          <a href="" className="body-2">
-            Career
-          </a>
+        <div className="flex flex-row justify-center gap-10">
+          <div className="flex flex-col text-center lg:text-start gap-2 lg:gap-4">
+            <h3 className="text-[18px] lg:text-[32px] font-black">Company</h3>
+            <a href="" className="body-2">
+              Home
+            </a>
+            <a href="" className="body-2">
+              Services
+            </a>
+            <a href="" className="body-2">
+              Contact Us
+            </a>
+            <a href="" className="body-2">
+              Career
+            </a>
+          </div>
+          <div className="flex flex-col text-center lg:text-start gap-2 lg:gap-4">
+            <h3 className="text-[18px] lg:text-[32px] font-black">Company</h3>
+            <a href="" className="body-2">
+              Home
+            </a>
+            <a href="" className="body-2">
+              Services
+            </a>
+            <a href="" className="body-2">
+              Contact Us
+            </a>
+            <a href="" className="body-2">
+              Career
+            </a>
+          </div>
         </div>
-        <div className="flex flex-col gap-4">
-          <h3 className="text-[32px]">Company</h3>
-          <a href="" className="body-2">
-            Home
-          </a>
-          <a href="" className="body-2">
-            Services
-          </a>
-          <a href="" className="body-2">
-            Contact Us
-          </a>
-          <a href="" className="body-2">
-            Career
-          </a>
-        </div>
-        <div className="flex flex-col gap-4">
-          <h3 className="text-[32px]">Subscribe now!</h3>
-          <p className="text-[20px] text-[#403634] lg:max-w-[447px]">
+        <div className="flex flex-col items-center lg:items-start gap-4">
+          <h3 className="text-[24px] lg:text-[32px]">Subscribe now!</h3>
+          <p className="text-[20px] text-[#403634] text-center lg:text-start lg:max-w-[447px]">
             Get daily interior inspiration, new products launches and more right
             to your inbox
           </p>
@@ -74,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-midnightGreen text-center py-2">
-        <h3 className="text-white">
+        <h3 className="text-white text-[14px]">
           Prime Care -- Powered by SANEM K. -- Created by.
         </h3>
       </div>
