@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <Fragment>
       <div className="container mx-auto flex flex-col items-center gap-20 py-12">
-        <div className="flex flex-col items-center justify-center lg:w-[1240px] lg:h-[400px] bg-midnightGreen lg:rounded-[60px] py-6 lg:py-0 gap-4">
-          <h1 className="text-white">Contact Us</h1>
-          <p className="text-white text-2xl font-['Quicksand'] lg:max-w-[723px] text-center">
+        <div className="flex flex-col items-center justify-center w-full lg:w-[1240px] lg:h-[400px] bg-midnightGreen lg:rounded-[60px] py-6 lg:py-0 gap-4">
+          <h1 className="text-white text-2xl lg:text-[80px]">Contact Us</h1>
+          <p className="text-white text-[14px] lg:text-2xl font-['Quicksand'] max-w-[340px] lg:max-w-[723px] text-center">
             It is a broead discipline thar includes various branches and
             specialties aimed at promoting health and well-being.
           </p>

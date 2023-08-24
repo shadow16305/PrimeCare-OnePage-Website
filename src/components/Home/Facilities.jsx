@@ -47,7 +47,7 @@ const Facilities = () => {
             It is a broad discipline that includes various branches and
             specialties aimed at promoting health and well-being.
           </p>
-          <div>
+          <div className="mt-4 lg:mt-0">
             <a
               href="#contact"
               className="px-6 py-3 bg-midnightGreen text-white text-xl font-['DM_Sans'] rounded-3xl hover:bg-[#328495] transition-[0.25s]"

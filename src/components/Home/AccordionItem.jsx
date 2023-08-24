@@ -16,7 +16,7 @@ function AccordionItem({ title, content, icon }) {
         className="flex w-full items-center justify-between"
       >
         <span className="text-[28px] text-black font-semibold">{title}</span>{" "}
-        <div className="bg-[#006C7215] w-[64px] h-[64px] flex items-center justify-center">
+        <div className="bg-[#006C7215] w-[64px] h-[64px] rounded-xl flex items-center justify-center">
           <img src={icon} alt="" />
         </div>
       </div>

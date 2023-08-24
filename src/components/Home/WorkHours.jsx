@@ -25,7 +25,11 @@ const WorkHours = () => {
               </a>
             </div>
           </div>
-          <img src={image} className="w-full h-full" alt="" />
+          <img
+            src={image}
+            className="lg:w-full lg:h-full w-[340px] h-[200px]"
+            alt=""
+          />
           <div className="flex flex-col justify-center p-5 bg-[#E8EDEC] rounded-3xl gap-8 w-[340px] lg:w-[456px] lg:h-[404px] lg:absolute lg:top-[10%] lg:right-0">
             <h4 className="text-black">Open Hours</h4>
             <p className="body-2 lg:w-[380px]">

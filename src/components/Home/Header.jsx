@@ -12,16 +12,16 @@ const Header = () => {
         id="home"
       >
         <div className="flex flex-col-reverse lg:flex-row items-center lg:pt-28 pt-10 lg:justify-center lg:gap-64">
-          <div className="flex flex-col items-center lg:items-start gap-10 py-20 text-center lg:text-start">
+          <div className="flex flex-col items-center lg:items-start gap-5 lg:gap-10 py-20 text-center lg:text-start">
             <h1 className="max-w-[342px] lg:max-w-[598px]">
               Prime Care Walk-in Clinic
             </h1>
-            <p className="body-1 max-w-[342px] lg:max-w-[598px]">
+            <p className="body-1 max-w-[342px] lg:max-w-[598px] leading-[28.64px] lg:leading-normal">
               We are a multimodality imaging clinic and have been operating for
               many years. Our staff is caring and highly qualified. Our goal is
               to provide timely and high quality imaging exams to our patients.
             </p>
-            <div>
+            <div className="mt-4 lg:mt-0">
               <a
                 href="#contact"
                 className="uppercase text-white bg-midnightGreen px-6 py-3 rounded-3xl text-xl hover:bg-[#328495] transition-[0.25s]"
