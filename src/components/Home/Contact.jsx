@@ -10,7 +10,7 @@ import "./Ticker.css";
 const Contact = () => {
   return (
     <Fragment>
-      <div className="container mx-auto flex flex-col items-center gap-20 py-12">
+      <div className="container mx-auto flex flex-col items-center gap-12 lg:gap-20 py-12">
         <div className="flex flex-col items-center justify-center w-full lg:w-[1240px] lg:h-[400px] bg-midnightGreen lg:rounded-[60px] py-6 lg:py-0 gap-4">
           <h1 className="text-white text-2xl lg:text-[80px]">Contact Us</h1>
           <p className="text-white text-[14px] lg:text-2xl font-['Quicksand'] max-w-[340px] lg:max-w-[723px] text-center">
@@ -25,7 +25,7 @@ const Contact = () => {
           <div>
             <Map />
           </div>
-          <div className="flex flex-col px-4 lg:px-0 gap-4">
+          <div className="flex flex-col px-4 lg:px-0 gap-6">
             <span className="text-midnightGreen text-base bg-[#F4F6F7] p-2 w-[142px] rounded-md text-center font-bold">
               Contact Us
             </span>
