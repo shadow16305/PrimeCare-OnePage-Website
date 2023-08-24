@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PrimeCare-OnePage-Website/static/css/main.f9d716b8.css",
-    "main.js": "/PrimeCare-OnePage-Website/static/js/main.03304a41.js",
+    "main.css": "/PrimeCare-OnePage-Website/static/css/main.1ca58711.css",
+    "main.js": "/PrimeCare-OnePage-Website/static/js/main.a4cc7fd6.js",
     "static/js/787.8bdf16a5.chunk.js": "/PrimeCare-OnePage-Website/static/js/787.8bdf16a5.chunk.js",
     "static/media/PICTURE OF DOCTOR.png": "/PrimeCare-OnePage-Website/static/media/PICTURE OF DOCTOR.0842f1f442eb8212f1da.png",
     "static/media/b2.png": "/PrimeCare-OnePage-Website/static/media/b2.db021a7f857dd5337363.png",
@@ -16,6 +16,7 @@
     "static/media/person_icon_two.svg": "/PrimeCare-OnePage-Website/static/media/person_icon_two.0328703264fa9094332efed37763f6bc.svg",
     "static/media/Frame 41.svg": "/PrimeCare-OnePage-Website/static/media/Frame 41.021352ab3fbc45d7ab43c89822a04775.svg",
     "static/media/ultrasound (3) 1.svg": "/PrimeCare-OnePage-Website/static/media/ultrasound (3) 1.d8d445fdaece70e127aca7f8db811178.svg",
+    "static/media/mobile-testimonials-bg.png": "/PrimeCare-OnePage-Website/static/media/mobile-testimonials-bg.407652b1efbb23d02833.png",
     "static/media/heart.svg": "/PrimeCare-OnePage-Website/static/media/heart.60e4fbbe30c27e4a065e0418f5c9a527.svg",
     "static/media/doctor_female.svg": "/PrimeCare-OnePage-Website/static/media/doctor_female.309e200379b6b7e69fd90f227114e11a.svg",
     "static/media/Frame 33.svg": "/PrimeCare-OnePage-Website/static/media/Frame 33.d0874244eb8d7c3d5758bf55a9cc11e5.svg",
@@ -24,16 +25,18 @@
     "static/media/pdf-icon.svg": "/PrimeCare-OnePage-Website/static/media/pdf-icon.05ba9f9b3b5ab7001c2d445ad47058f2.svg",
     "static/media/phone-icon.svg": "/PrimeCare-OnePage-Website/static/media/phone-icon.c06bd85d8ad985fae217f0b9f56701e9.svg",
     "static/media/mail-icon.svg": "/PrimeCare-OnePage-Website/static/media/mail-icon.fa2c7b5b2bb16a760b3c0f10ce9845d9.svg",
+    "static/media/cross.svg": "/PrimeCare-OnePage-Website/static/media/cross.f65486f606c09cec63b4097f0b90c0a1.svg",
     "static/media/location-icon.svg": "/PrimeCare-OnePage-Website/static/media/location-icon.5fd6c3c438135c4e8e63cf376df9b7e1.svg",
     "static/media/Classic Filled.svg": "/PrimeCare-OnePage-Website/static/media/Classic Filled.86d4446c83f9ea9aea2d61a163384c23.svg",
     "index.html": "/PrimeCare-OnePage-Website/index.html",
     "static/media/quote-icon.svg": "/PrimeCare-OnePage-Website/static/media/quote-icon.d64e0be0429c18beb1537c2687b26731.svg",
-    "main.f9d716b8.css.map": "/PrimeCare-OnePage-Website/static/css/main.f9d716b8.css.map",
-    "main.03304a41.js.map": "/PrimeCare-OnePage-Website/static/js/main.03304a41.js.map",
+    "static/media/Hamburger.svg": "/PrimeCare-OnePage-Website/static/media/Hamburger.eef817d6159b806603e1614c5c59e3be.svg",
+    "main.1ca58711.css.map": "/PrimeCare-OnePage-Website/static/css/main.1ca58711.css.map",
+    "main.a4cc7fd6.js.map": "/PrimeCare-OnePage-Website/static/js/main.a4cc7fd6.js.map",
     "787.8bdf16a5.chunk.js.map": "/PrimeCare-OnePage-Website/static/js/787.8bdf16a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9d716b8.css",
-    "static/js/main.03304a41.js"
+    "static/css/main.1ca58711.css",
+    "static/js/main.a4cc7fd6.js"
   ]
 }
