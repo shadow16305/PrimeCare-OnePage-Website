@@ -10,7 +10,7 @@ const navLinks = [
 ];
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const genericHamburgerLine = `h-1 w-6 my-1 bg-black transition ease transform duration-300`;
 
