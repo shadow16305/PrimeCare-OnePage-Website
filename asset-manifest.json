@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PrimeCare-OnePage-Website/static/css/main.8a51e128.css",
-    "main.js": "/PrimeCare-OnePage-Website/static/js/main.630b769d.js",
+    "main.js": "/PrimeCare-OnePage-Website/static/js/main.4da54a6f.js",
     "static/js/787.8bdf16a5.chunk.js": "/PrimeCare-OnePage-Website/static/js/787.8bdf16a5.chunk.js",
     "static/media/PICTURE OF DOCTOR.png": "/PrimeCare-OnePage-Website/static/media/PICTURE OF DOCTOR.0842f1f442eb8212f1da.png",
     "static/media/b2.png": "/PrimeCare-OnePage-Website/static/media/b2.db021a7f857dd5337363.png",
@@ -28,11 +28,11 @@
     "index.html": "/PrimeCare-OnePage-Website/index.html",
     "static/media/quote-icon.svg": "/PrimeCare-OnePage-Website/static/media/quote-icon.d64e0be0429c18beb1537c2687b26731.svg",
     "main.8a51e128.css.map": "/PrimeCare-OnePage-Website/static/css/main.8a51e128.css.map",
-    "main.630b769d.js.map": "/PrimeCare-OnePage-Website/static/js/main.630b769d.js.map",
+    "main.4da54a6f.js.map": "/PrimeCare-OnePage-Website/static/js/main.4da54a6f.js.map",
     "787.8bdf16a5.chunk.js.map": "/PrimeCare-OnePage-Website/static/js/787.8bdf16a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a51e128.css",
-    "static/js/main.630b769d.js"
+    "static/js/main.4da54a6f.js"
   ]
 }
