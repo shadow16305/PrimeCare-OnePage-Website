@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { CSSTransition } from "react-transition-group";
-import "./Accordion.css"; // Create a CSS file for your animations
+import "./Accordion.css";
 
 function AccordionItem({ title, content, icon }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,8 +22,8 @@ function AccordionItem({ title, content, icon }) {
       </div>
       <CSSTransition
         in={isOpen}
-        timeout={300} // Adjust this duration as needed
-        classNames="slide" // Add a slide class to your CSS for the animation
+        timeout={300}
+        classNames="slide"
         unmountOnExit
       >
         <p className="text-[20px] font-['DM_Sans'] text-[#817A79B5] lg:w-[518px]">
