@@ -77,7 +77,9 @@ const Navbar = () => {
       </div>
       <div
         className={`${
-          isOpen ? "left-0 h-2/3 w-screen" : "left-[-1000px] h-2/3 w-screen"
+          isOpen
+            ? "left-0 h-screen w-screen"
+            : "left-[-1000px] h-screen w-screen"
         } transition-all duration-700 fixed bg-midnightGreen z-20 pt-48 lg:hidden`}
       >
         <ul className="list-none uppercase gap-16 flex flex-col items-center justify-center">
