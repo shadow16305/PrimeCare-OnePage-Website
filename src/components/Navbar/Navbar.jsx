@@ -44,7 +44,7 @@ const Navbar = () => {
           </ul>
           <div className="flex gap-4">
             <img src={pdf_icon} alt="" />
-            <button className="bg-midnightGreen text-white text-[16px] font-medium rounded-3xl px-6 py-3 hover:bg-[#328495] transition-[0.25s] uppercase">
+            <button className="bg-midnightGreen text-white text-[16px] font-medium rounded-3xl px-5 py-2 hover:bg-[#328495] transition-[0.25s] uppercase">
               Download Requisition
             </button>
           </div>

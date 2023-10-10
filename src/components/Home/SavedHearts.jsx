@@ -1,7 +1,5 @@
 import React, { Fragment } from "react";
 
-import image from "../../assets/image 9.png";
-
 const cards = [
   {
     id: 0,
@@ -68,23 +66,6 @@ const SavedHearts = () => {
               </div>
             </div>
           ))}
-        </div>
-        <div className="flex flex-col-reverse lg:flex-row justify-between bg-midnightGreen p-3 lg:p-0 lg:w-[1240px] lg:max-h-[470px] gap-4 lg:gap-0 lg:rounded-[60px] py-4 lg:py-0 lg:mt-4">
-          <div className="flex flex-col justify-center gap-10 lg:ps-10">
-            <h2 className="text-white text-[20px] lg:text-[48px] text-center lg:text-start lg:max-w-[475px]">
-              Your Well-Being is our Main Priority
-            </h2>
-            <div className="flex flex-row gap-6">
-              <button className="uppercase rounded-3xl px-8 py-3 bg-white text-black hover:bg-[#328495] transition-[0.25s] hover:text-white">
-                (905) 604-8400
-              </button>
-
-              <button className="uppercase rounded-3xl px-8 py-3 bg-white text-black hover:bg-[#328495] transition-[0.25s] hover:text-white">
-                (647) 564-8004
-              </button>
-            </div>
-          </div>
-          <img src={image} alt="" />
         </div>
       </div>
     </Fragment>

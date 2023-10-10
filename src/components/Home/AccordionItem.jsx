@@ -20,13 +20,12 @@ function AccordionItem({ title, content, icon }) {
           <img src={icon} alt="" />
         </div>
       </div>
-      <CSSTransition
-        in={isOpen}
-        timeout={300}
-        classNames="slide"
-        unmountOnExit
-      >
-        <p className="text-[20px] font-['DM_Sans'] text-[#817A79B5] lg:w-[518px]">
+      <CSSTransition in={isOpen} timeout={300} classNames="slide" unmountOnExit>
+        <p
+          className={`text-[20px] font-['DM_Sans'] text-[#817A79B5] lg:w-[518px] ${
+            isOpen ? "opacity-100" : "opacity-0"
+          } transition-all duration-1000`}
+        >
           {content}
         </p>
       </CSSTransition>
