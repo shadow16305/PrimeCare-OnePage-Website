@@ -18,7 +18,7 @@ const Contact = () => {
           <div>
             <Map />
           </div>
-          <div className="flex flex-col px-4 lg:px-0 gap-6">
+          <div className="flex flex-col items-center px-4 lg:px-0 gap-6">
             <span className="text-midnightGreen text-base bg-[#F4F6F7] p-2 w-[142px] rounded-md text-center font-bold">
               Contact Us
             </span>
@@ -33,22 +33,28 @@ const Contact = () => {
               <img src={phone_icon} className="w-[48px] h-[48px]" alt="" />
               <div className="flex flex-col justify-center">
                 <h3>Call us</h3>
-                <p className="text-base">(416) 997 - 5559</p>
-                <p className="text-base">(365) 509 - 2982</p>
+                <p className="text-base w-[210px] lg:w-[384px]">
+                  (416) 997 - 5559
+                </p>
+                <p className="text-base w-[210px] lg:w-[384px]">
+                  (365) 509 - 2982
+                </p>
               </div>
             </div>
             <div className="flex flex-row gap-3">
               <img src={mail_icon} className="w-[48px] h-[48px]" alt="" />
               <div className="flex flex-col justify-center">
                 <h3>Mail us</h3>
-                <p className="text-base">info@primecareclinic.ca</p>
+                <p className="text-base w-[210px] lg:w-[384px]">
+                  info@primecareclinic.ca
+                </p>
               </div>
             </div>
             <div className="flex flex-row gap-3">
               <img src={location_icon} className="w-[48px] h-[48px]" alt="" />
               <div className="flex flex-col justify-center">
                 <h3>Our location</h3>
-                <p className="text-base lg:max-w-[384px]">
+                <p className="text-base w-[210px] lg:w-[384px]">
                   9160 Bayview Ave, Unit b01, Richmond Hill, ON L4B 0E6
                 </p>
               </div>

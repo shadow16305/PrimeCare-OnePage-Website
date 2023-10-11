@@ -21,9 +21,9 @@ const Header = () => {
             <div className="mt-4">
               <a
                 href="#contact"
-                className="uppercase text-white bg-midnightGreen px-6 py-3 rounded-[50px] text-xl hover:bg-[#328495] transition-[0.25s]"
+                className="text-white bg-midnightGreen px-[40px] py-5 rounded-[60px] text-xl hover:bg-[#328495] transition-[0.25s]"
               >
-                get appointment
+                Get appointment
               </a>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Header = () => {
       </div>
       <div className="hwrap">
         <div className="flex flex-row bg-midnightGreen hmove">
-          <div className="flex items-center gap-8 hitem">
+          <div className="flex items-center gap-4 hitem">
             <div className="dot"></div>
             <h4>HAPPY PATIENTS </h4>
             <div className="dot"></div>
@@ -48,7 +48,7 @@ const Header = () => {
             <div className="dot"></div>
             <h4>X-RAY SERVICES</h4>
           </div>
-          <div className="flex items-center gap-8 hitem">
+          <div className="flex items-center gap-4 hitem">
             <div className="dot"></div>
             <h4>HAPPY PATIENTS </h4>
             <div className="dot"></div>

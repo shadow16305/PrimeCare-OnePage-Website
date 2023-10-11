@@ -44,7 +44,7 @@ const Navbar = () => {
           </ul>
           <div className="flex gap-4">
             <img src={pdf_icon} alt="" />
-            <button className="bg-midnightGreen text-white text-[16px] font-medium rounded-3xl px-5 py-2 hover:bg-[#328495] transition-[0.25s] uppercase">
+            <button className="bg-midnightGreen text-white text-[16px] font-medium rounded-3xl px-5 py-2 hover:bg-[#328495] transition-[0.25s]">
               Download Requisition
             </button>
           </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
       </nav>
 
       {/* MOBILE */}
-      <div className="flex justify-between w-screen items-center lg:hidden py-2 px-6 fixed z-30 bg-white shadow-lg">
+      <div className="flex justify-between w-screen items-center lg:hidden py-2 px-6 fixed z-30 bg-white shadow-md">
         <h3>
           <img src={logo} alt="" />
         </h3>
@@ -80,22 +80,29 @@ const Navbar = () => {
           isOpen
             ? "left-0 h-screen w-screen"
             : "left-[-1000px] h-screen w-screen"
-        } transition-all duration-700 fixed bg-midnightGreen z-20 pt-48 lg:hidden`}
+        } transition-all duration-700 fixed bg-midnightGreen z-20 lg:hidden`}
       >
-        <ul className="list-none uppercase gap-16 flex flex-col items-center justify-center">
-          {navLinks.map((elem) => (
-            <li key={elem.id}>
-              <a
-                href={elem.href}
-                className="flex gap-2 text-white text-sm font-medium"
-                onClick={() => setIsOpen(false)}
-              >
-                {elem.name}
-                {elem.icon}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <div className="flex flex-col items-center justify-center h-full">
+          <ul className="list-none uppercase gap-16 flex flex-col items-center justify-center">
+            {navLinks.map((elem) => (
+              <li key={elem.id}>
+                <a
+                  href={elem.href}
+                  className="flex gap-2 text-white text-md font-medium"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {elem.name}
+                  {elem.icon}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div>
+            <button className="bg-white px-5 py-3 mt-16 text-midnightGreen text-md font-semibold rounded-[50px]">
+              Download requisition
+            </button>
+          </div>
+        </div>
       </div>
     </Fragment>
   );
